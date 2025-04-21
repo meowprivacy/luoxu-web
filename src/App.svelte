@@ -7,7 +7,7 @@
   import { sleep } from "./util.js";
   import "./global.css";
 
-  const LUOXU_URL = "http://luoxu.api.ran.ac/luoxu";
+  const LUOXU_URL = "https://api.ran.ac/luoxu";
   const islocal = LUOXU_URL.startsWith("http://localhost");
   let groups: { group_id: string; name: string }[] = $state([]);
   let group: string = $state();
